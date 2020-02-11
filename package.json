@@ -5,6 +5,10 @@
   "version": "0.0.1",
   "icon": "task.png",
   "publisher": "panzerstadt",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/panzerstadt/tut-vscode-ext-todo"
+  },
   "engines": {
     "vscode": "^1.42.0"
   },
