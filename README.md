@@ -8,6 +8,10 @@ which is part of a workbench: https://code.visualstudio.com/api/extension-capabi
 implementation of the refresh command is based on this: https://code.visualstudio.com/api/extension-guides/tree-view#view-actions
 refresh buttons are from here: https://code.visualstudio.com/api/references/icons-in-labels
 
+### Publishing
+
+https://code.visualstudio.com/api/working-with-extensions/publishing-extension#publishing-extensions
+
 ### Attributions
 
 <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
