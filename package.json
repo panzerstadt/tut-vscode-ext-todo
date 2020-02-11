@@ -32,17 +32,32 @@
       {
         "command": "taskOutline.executeTask",
         "title": "Execute"
+      },
+      {
+        "command": "taskOutline.refresh",
+        "title": "Refresh",
+        "icon": "$(refresh)"
       }
-    ]
+    ],
+    "menus": {
+      "view/title": [
+        {
+          "command": "taskOutline.refresh",
+          "when": "view == taskOutline",
+          "group": "navigation"
+        }
+      ]
+    }
   },
   "keywords": [
     "tutorial",
     "tasks"
   ],
   "galleryBanner": {
-    "color": "#FF3366"
+    "color": "#F6F7EB"
   },
   "scripts": {
+    "help": "echo 'login with vsce login panzerstadt', and paste your personal access token from azure orgs. then 'vsce publish'",
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "lint": "eslint src --ext ts",
