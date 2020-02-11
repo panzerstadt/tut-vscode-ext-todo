@@ -2,7 +2,7 @@
   "name": "tut-ext",
   "displayName": "tut-ext",
   "description": "tutorial of how to make an extension",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "icon": "task.png",
   "publisher": "panzerstadt",
   "repository": {
